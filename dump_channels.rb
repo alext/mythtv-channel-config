@@ -3,7 +3,6 @@
 require 'rubygems'
 require 'rexml/document'
 require 'mysql2'
-require 'date'
 
 HOME_CONFIG = "#{ENV['HOME']}/.mythtv/config.xml"
 ETC_CONFIG = "/etc/mythtv/config.xml"
@@ -24,7 +23,7 @@ client = Mysql2::Client.new({
   :database => doc.elements.to_a("//Database/DatabaseName").first.text,
 })
 
-File.open("channels_#{Date.today.to_s}.sql", 'w') do |f|
+File.open("channels.sql", 'w') do |f|
   client.query("SELECT * FROM channel ORDER BY chanid").each do |row|
     next if row["xmltvid"].to_s =~ /\A\s*\z/
 
