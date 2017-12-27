@@ -17,12 +17,12 @@ UPDATE channel SET xmltvid='82575', useonairguide=0, commmethod=-1 WHERE callsig
 UPDATE channel SET xmltvid='52335', useonairguide=0, commmethod=-1 WHERE callsign = '5 USA';
 UPDATE channel SET xmltvid='48020', useonairguide=0, commmethod=-1 WHERE callsign = 'ITV4';
 UPDATE channel SET xmltvid='21257', useonairguide=0, commmethod=-1 WHERE callsign = 'Home';
-UPDATE channel SET xmltvid='90855', useonairguide=0, commmethod=-1 WHERE callsign = 'ITVBe';
+UPDATE channel SET xmltvid='90257', useonairguide=0, commmethod=-1 WHERE callsign = 'ITVBe';
 UPDATE channel SET xmltvid='53059', useonairguide=0, commmethod=-1 WHERE callsign = 'ITV2 +1';
 UPDATE channel SET xmltvid='25117', useonairguide=0, commmethod=-1 WHERE callsign = 'E4';
 UPDATE channel SET xmltvid='33882', useonairguide=0, commmethod=-1 WHERE callsign = 'E4+1';
 UPDATE channel SET xmltvid='52336', useonairguide=0, commmethod=-1 WHERE callsign = '5STAR';
-UPDATE channel SET xmltvid='97330', useonairguide=0, commmethod=-1 WHERE callsign = 'Spike';
+UPDATE channel SET xmltvid='97330', useonairguide=0, commmethod=-1 WHERE callsign = '5Spike';
 UPDATE channel SET xmltvid='81450', useonairguide=0, commmethod=-1 WHERE callsign = 'Sony Movie Ch';
 UPDATE channel SET xmltvid='65160', useonairguide=0, commmethod=-1 WHERE callsign = 'ITV +1';
 UPDATE channel SET xmltvid='98366', useonairguide=0, commmethod=-1 WHERE callsign = 'ITV3+1';
