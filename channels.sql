@@ -4,6 +4,7 @@ UPDATE channel SET xmltvid='17468', useonairguide=0, commmethod=-1 WHERE callsig
 UPDATE channel SET xmltvid='17155', useonairguide=0, commmethod=-1 WHERE callsign = 'Channel 4';
 UPDATE channel SET xmltvid='17157', useonairguide=0, commmethod=-1 WHERE callsign = 'Channel 5';
 UPDATE channel SET xmltvid='20630', useonairguide=0, commmethod=-1 WHERE callsign = 'ITV2';
+UPDATE channel SET xmltvid='84926', useonairguide=0, commmethod=-1 WHERE callsign = 'London Live';
 UPDATE channel SET xmltvid='20684', useonairguide=0, commmethod=-2 WHERE callsign = 'BBC FOUR';
 UPDATE channel SET xmltvid='44643', useonairguide=0, commmethod=-1 WHERE callsign = 'ITV3';
 UPDATE channel SET xmltvid='48021', useonairguide=0, commmethod=-1 WHERE callsign = 'Pick';
@@ -34,16 +35,15 @@ UPDATE channel SET xmltvid='21793', useonairguide=0, commmethod=-1 WHERE callsig
 UPDATE channel SET xmltvid='75804', useonairguide=0, commmethod=-1 WHERE callsign = '4seven';
 UPDATE channel SET xmltvid='46306', useonairguide=0, commmethod=-1 WHERE callsign = 'movies4men';
 UPDATE channel SET xmltvid='90645', useonairguide=0, commmethod=-1 WHERE callsign = 'ITVBe+1';
+UPDATE channel SET xmltvid='74024', useonairguide=0, commmethod=-1 WHERE callsign = 'Sony Crime Channel';
 UPDATE channel SET xmltvid='57747', useonairguide=0, commmethod=-1 WHERE callsign = 'True Entertainment';
 UPDATE channel SET xmltvid='61806', useonairguide=0, commmethod=-1 WHERE callsign = 'ITV4+1';
 UPDATE channel SET xmltvid='73970', useonairguide=0, commmethod=-1 WHERE callsign = 'CBS Action';
 UPDATE channel SET xmltvid='97332', useonairguide=0, commmethod=-1 WHERE callsign = 'TBN UK';
 UPDATE channel SET xmltvid='31756', useonairguide=0, commmethod=-1 WHERE callsign = 'CBS Reality';
 UPDATE channel SET xmltvid='97331', useonairguide=0, commmethod=-1 WHERE callsign = 'truTV';
-UPDATE channel SET xmltvid='97349', useonairguide=0, commmethod=-1 WHERE callsign = 'truTV+1';
 UPDATE channel SET xmltvid='57827', useonairguide=0, commmethod=-1 WHERE callsign = 'CBS Drama';
 UPDATE channel SET xmltvid='97674', useonairguide=0, commmethod=-1 WHERE callsign = 'YourTV';
-UPDATE channel SET xmltvid='97676', useonairguide=0, commmethod=-1 WHERE callsign = 'YourTV+1';
 UPDATE channel SET xmltvid='44855', useonairguide=0, commmethod=-1 WHERE callsign = 'Dave ja vu';
 UPDATE channel SET xmltvid='101972', useonairguide=0, commmethod=-1 WHERE callsign = 'Blaze';
 UPDATE channel SET xmltvid='29324', useonairguide=0, commmethod=-2 WHERE callsign = 'CBBC';
@@ -53,3 +53,4 @@ UPDATE channel SET xmltvid='33638', useonairguide=0, commmethod=-1 WHERE callsig
 UPDATE channel SET xmltvid='19037', useonairguide=0, commmethod=-2 WHERE callsign = 'BBC NEWS';
 UPDATE channel SET xmltvid='20685', useonairguide=0, commmethod=-2 WHERE callsign = 'BBC Parliament';
 UPDATE channel SET xmltvid='16234', useonairguide=0, commmethod=-1 WHERE callsign = 'Sky News';
+UPDATE channel SET xmltvid='44717', useonairguide=0, commmethod=-1 WHERE callsign = 'True Movies';
